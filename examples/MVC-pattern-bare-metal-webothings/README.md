@@ -12,7 +12,7 @@ This model, created with a Chariot and Arduino Mega 2560 shows how servos can be
 
 This sketch makes an azimuthal camera mount (I used Adafruit Min Pan-Tilt Kit (1967)) servo visible on a 6LoWPAN 802.15.4 wireless net. It can be controlled (it's azimuth set) and viewed. 
 
-![Model](https://www.qualianetworks.com/images/u9v3bbdmwikr0n6y5pp8nyb6din7dk)
+![model](https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/585576c72994ca4821a35df5/1481996158047/MVC-Showing+Model.jpg?format=500w "Model View Controller as a Chariot web-of-things")
 
 ### Resource Creation and Setup ###
 This sketch creates a dynamic resource, "/event/servos/azimuth" whose URI, coap://chariot.xxxxx.local/event/servos/azimuth, can be the object of GETS, PUTS, OBServes, and DELetes. The sketch's setup() function handles this as follows:
