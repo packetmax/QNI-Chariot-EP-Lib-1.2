@@ -2,6 +2,8 @@
 ### Using Chariot with Blynk (blynk.cc) drag-n-drop IoT smartphone app builder
 Our purpose here is to provide an example of how to create a Blynk sketch that uses Chariot as its web-of-things engine. This sketch is designed to run on the ESP8266-based WeMos D1 R2 "UNO" board. The ESP8266 is a WiFi processor and is used to move IoT data to and from the Blynk cloud (and therefore Blynk app). Blynk is orchestrated through a collection of widgets whose confederates run on an Arduino sketch.
 
+![blynk](https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/58557185e58c62ffaa9a1a7a/1481996356605/Blynk-Chariot-screen-widget-layout.jpg?format=500w "Blynk app for Chariot mesh")
+
 See the "docs" section of the Blynk website for the how to's of setting up your smartphone app. They are not storable in the standard sense, but created through a drag-n-drop interface that is loaded onto your android or iPhone. We have put up a photo of our phone app widget layout and numbering scheme [here] so you can see what the sketch is accomplishing and how to create the app for yourself.
 ### Note-1 ###
 The sleep function of the ESP8266 requires the addition of a switch between pin D0 and RESET (we wired this on the bottom of our WeMos D1 R2). The switch must be thrown or 'on' for the reset to occur during wakeup (see below). The switch must be 'off' while Upload is occurring.
