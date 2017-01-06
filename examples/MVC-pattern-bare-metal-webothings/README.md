@@ -115,7 +115,7 @@ This example for the Arduino Mega 2560 shows how servo activity (the model) can 
 
 This sketch, except for the TFT screen code, is very simple and powerful. It's functions are basic to a bare metal Arduino view pattern for the Azimuth camera mount example in this folder.
 
-![View](https://www.qualianetworks.com/images/grd77vkvnty2cbvsz6nbq5qfckc5by)
+![view](https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/58557786e6f2e1189aad6ef0/1481996227698/MVC-Viewer.jpg?format=500w "Azimuth Viewer")
 
 ##### Sketch 
 When initiated from reset, the loop() function searches the mesh for a mote owning the resource, "event/servos/azimuth" at a frequency of once every 10 seconds.
@@ -192,7 +192,7 @@ This sketch provides the Controller.
  
 This sketch, for Chariot-Arduino Mega 2560, shows how servos can be controlled from a remote CoAP client. The purpose is to demonstrate bare metal device sketches that can interoperate over the 6LoWPAN/CoAP network to control other sketches; in this case the azimuth servo resource.
 
-![Controller](https://www.qualianetworks.com/images/2016/12/17/dqt6bxagf551t77me03x75dx0tf0dv)
+![controller](https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/5855769c1b631bc198025723/1481996090148/MVC-Controller.jpg?format=500w "Azimuth Controller")
 
 As is the case with the View sketch, Controller waits in the same way for the mote holding the azimuth servo resource to appear in the motes table (DNS). It puts a 'dial pad' on the display that can field the following commands:
 
