@@ -8,7 +8,7 @@ Please note that if you have Node.js installed on a system that is connected to 
     
 for the default setup of this sketch.
 
-![WS interface](https://www.qualianetworks.com/images/32m6n72s6x271ta8fm9ver7qytzyx0)
+![ws-interface](https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/585571d89de4bb0a69e41bab/1481996546061/Chariot-web-of-things-chat.GIF?format=500w "Websocket interface to Chariot mesh")
 
 To connect right click on "arduino-chat-frontend-logo" and open with Google Chrome or Firefox. A websocket connection will
 be attempted, by way of a popup screen. If your Arduino/Ethernet/Chariot stack is operating with a different IP address
