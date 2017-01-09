@@ -1,11 +1,11 @@
 ## Synopsis
 The purpose of this sketch is to provide a basic websocket server that websocket clients can
-use to gain access to any Chariot in the 6LoWPAN mesh of which this Chariot-equipped server is a member. This sketch uses the Mega 2560 and W5100-compatible Ethernet shield with **Chariot** as a relay--directing CoaP URLs received from a client across an ethernet-hosted websocket to the sketch. The sketch inspects each and forwards the ones not destined for local processing to the proxy located on the local Chariot which then takes care of forwarding each request to the intended target and delivering the response for relay back to the requestor. The websocket relay server created by this sketch can be confined to a local network or alternatively given a dynamic DNS address for access from the net.
+use to gain access to any Chariot in the 6LoWPAN mesh of which this Chariot-equipped server is a member. This sketch uses the Mega 2560 and W5100-compatible Ethernet shield with **Chariot** as a relay--directing CoaP URLs received from a client across an ethernet-hosted websocket to the sketch. The sketch inspects each and forwards the ones not destined for local processing to the proxy located on the local Chariot which then takes care of forwarding each request to the intended target and delivering the response for relay back to the requestor. The websocket relay server created by this sketch can be confined to a local network or alternatively given a dynamic DNS address for access from the net. You can also simply use Curl on Windows or Linux to connect and communicate via URL with your Chariot network. See our PDF at the top of the repo for forming CoAP URLs that can reference your Arduino resources.
  
-A javascript client that can be opened and run by Chrome is provided to act as a test and prototyping fixture.  
+![websocket_if] (https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/585571c2e4fcb5bac6419af4/1481996503635/Chariot-IO+Mote%2BEthernet-Websocket.jpg?format=500w "internet websocket interface to a Chariot web-of=things")
 
 ## Sketch code details
-This sketch uses the websockets library  by Per Ejeklint for Arduino. See: 
+This sketch uses the websockets library by Per Ejeklint for Arduino. See: 
 <https://github.com/ejeklint/ArduinoWebsocketServer>. During setup, the **Chariot** serial channel is created, followed by the registration of *connection*, *data*, and *disconnect* 
 callbacks with the websocket server.
 ### Ethernet/Websocket server setup ###
