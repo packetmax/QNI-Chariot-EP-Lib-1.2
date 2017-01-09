@@ -9,6 +9,8 @@ this library and Chariot firmware turn your Arduino into a mote (i.e., 'particle
 access to the resources on your Arduino via API or URI proxy to other Arduinos, webapps or browsers
 anywhere. 
 
+![Arduino_Chariot_mesh_component](https://static1.squarespace.com/static/5665efb6c647add60e3ed416/585571412994ca4821a326ac/585571cb1b631bc19802286a/1481994701536/IO-mote.jpg?format=500w "Chariot-equipped Arduino mesh node")
+
 ### Motivation
 The purpose of this library for Chariot is to provide Arduino with the ability to create and 
 control dynamic event driven resources within a sketch, across sketches, and across the net to clouds or webapps. These resources become objects of Chariot's RESTful web services, identified by unique URIs, which provide
